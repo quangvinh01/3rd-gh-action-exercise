@@ -14,8 +14,6 @@ jobs:
                 node-version: 18
             - name: Install dependency
               run: npm ci
-            - name: Setup ES Lint
-              run: npm init @eslint/config
             - name: Lint Test
               run: npm run lint
     unit-test:
